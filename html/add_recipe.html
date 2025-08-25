@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeNest - Add Recipe</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="/UNIT-3 async/Build_Week_Project/css/recipe-form.css">
+    <link rel="stylesheet" href="/UNIT-3 async/Build_Week_Project/css/main.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-title">
+            <img src="/UNIT-3 async/Build_Week_Project/assets/logo.png" alt="RecipeNest Logo" class="logo">
+            <h2>RecipeNest</h2>
+        </div>
+        <nav>
+            <a href="/UNIT-3 async/Build_Week_Project/html/dashboard.html">My Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/all_recipes.html">All Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/bookmarked_recipes.html">Bookmarked Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/add_recipe.html">Add a Recipe</a>
+            <button id="logoutBtn">Logout</button>
+        </nav>
+    </header>
+    <main>
+        <section class="add-recipe-section">
+            <form id="recipeForm">
+                <h3 id="formTitle">Add a New Recipe</h3>
+                <input type="text" id="title" placeholder="Recipe Title" required>
+                <div id="editor" style="height: 200px;"></div>
+                <input type="hidden" id="recipeId">
+                <textarea id="ingredients" placeholder="Ingredients (e.g., 2 cups flour, 1 tsp sugar)" required></textarea>
+                <input type="text" id="tags" placeholder="Tags (comma-separated, e.g., Vegan, Quick)">
+                <select id="category" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Dessert">Dessert</option>
+                    <option value="Snack">Snack</option>
+                </select>
+                <input type="url" id="videoUrl" placeholder="Video URL (optional)">
+                <button id="submitBtn" type="submit">Add Recipe</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js"></script>
+    <script type="module" src="/UNIT-3 async/Build_Week_Project/js/add_recipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeNest - Bookmarked Recipes</title>
+    <link rel="stylesheet" href="/UNIT-3 async/Build_Week_Project/css/main.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-title">
+            <img src="/UNIT-3 async/Build_Week_Project/assets/logo.png" alt="RecipeNest Logo" class="logo">
+            <h2>RecipeNest</h2>
+        </div>
+        <nav>
+            <a href="/UNIT-3 async/Build_Week_Project/html/dashboard.html">My Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/all_recipes.html">All Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/bookmarked_recipes.html">Bookmarked Recipes</a>
+            <a href="/UNIT-3 async/Build_Week_Project/html/add_recipe.html">Add a Recipe</a>
+            <button id="logoutBtn">Logout</button>
+        </nav>
+    </header>
+    <main>
+        <h2>Bookmarked Recipes</h2>
+        <section class="bookmarked-recipes-section">
+            
+            <div id="all-recipe-list"></div>
+        </section>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js"></script>
+    <script type="module" src="/UNIT-3 async/Build_Week_Project/js/bookmarked_recipes.js"></script>
+</body>
+</html>
