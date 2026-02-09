@@ -14,7 +14,7 @@ Frontend (Firebase-powered)
 
 ## Deployed App
 
-Frontend: [https://your-deployment-link.com](https://recipes-nest74.netlify.app/)  
+Frontend: [RecipeNest](https://recipes-nest74.netlify.app/)  
 Backend: Firebase Authentication + Firestore Database (serverless)  
 Database: Firebase Firestore
 
