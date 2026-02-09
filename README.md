@@ -42,25 +42,8 @@ RecipeSharingPlatform_Food/
 │ ├─ all_recipes.html # View all recipes
 │ ├─ bookmarked_recipes.html # View bookmarked recipes
 
-## Video Walkthrough of the project
-
-Attach a short video (1–3 minutes) demonstrating:
-
-- Signup/Login flow
-- Adding a recipe
-- Viewing all recipes
-- Bookmarking recipes
-- Viewing bookmarked recipes
 ```
 
-## Video Walkthrough of the codebase
-
-Attach a short video (1–5 minutes) showing:
-
-- Firebase setup (config.js)
-- Authentication flow (auth.js)
-- Recipe CRUD operations (add_recipe.js, all_recipes.js, dashboard.js)
-- Bookmark handling (bookmarked_recipes.js)
 
 ## Features
 
