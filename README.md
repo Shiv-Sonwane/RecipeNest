@@ -19,7 +19,7 @@ Backend: Firebase Authentication + Firestore Database (serverless)
 Database: Firebase Firestore
 
 ## Directory Structure
-
+```text
 RecipeSharingPlatform_Food/
 ├─ assets/ # Images, logo, icons
 ├─ css/ # All stylesheets
@@ -51,6 +51,7 @@ Attach a short video (1–3 minutes) demonstrating:
 - Viewing all recipes
 - Bookmarking recipes
 - Viewing bookmarked recipes
+```
 
 ## Video Walkthrough of the codebase
 
