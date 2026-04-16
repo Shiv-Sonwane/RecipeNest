@@ -3,9 +3,9 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDnFDIEcWZ0IYhiTxIJWQ0IpTc8ZuY24BI",
-    authDomain: "recipenest-4b4e9.firebaseapp.com",
-    projectId: "recipenest-4b4e9",
+    apiKey: ENV.apiKey,
+    authDomain: ENV.authDomain,
+    projectId: ENV.projectId,
     storageBucket: "recipenest-4b4e9.firebasestorage.app",
     messagingSenderId: "653772495841",
     appId: "1:653772495841:web:acb43cc456d1e7665f90a0",
